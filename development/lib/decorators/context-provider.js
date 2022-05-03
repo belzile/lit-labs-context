@@ -48,11 +48,11 @@ export function contextProvider({ context: context, }) {
             // proxy any existing setter for this property and use it to
             // notify the controller of an updated value
             const descriptor = Object.getOwnPropertyDescriptor(ctor.prototype, name);
-            const oldSetter = descriptor?.set;
+            const oldSetter = descriptor === null || descriptor === void 0 ? void 0 : descriptor.set;
             const newDescriptor = {
                 ...descriptor,
                 set: function (value) {
-                    controller?.setValue(value);
+                    controller === null || controller === void 0 ? void 0 : controller.setValue(value);
                     if (oldSetter) {
                         oldSetter.call(this, value);
                     }

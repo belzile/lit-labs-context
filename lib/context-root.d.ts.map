@@ -1,0 +1,1 @@
+{"version":3,"file":"context-root.d.ts","sourceRoot":"","sources":["../../src/lib/context-root.ts"],"names":[],"mappings":"AAAA;;;;GAIG;AAgBH;;;GAGG;AACH,qBAAa,WAAW;IACtB,OAAO,CAAC,sBAAsB,CAG1B;IAEJ;;;;;OAKG;IACI,MAAM,CAAC,OAAO,EAAE,WAAW,GAAG,IAAI;IAKzC;;;;OAIG;IACI,MAAM,CAAC,OAAO,EAAE,WAAW,GAAG,IAAI;IAKzC,OAAO,CAAC,iBAAiB,CAsBvB;IAEF,OAAO,CAAC,gBAAgB,CAqBtB;CACH"}
